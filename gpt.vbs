@@ -1,6 +1,5 @@
 Dim speech
 Set WshShell = WScript.CreateObject("WScript.Shell")
-Dim currentTime
 Set objXMLHTTP = CreateObject("MSXML2.XMLHTTP")
 
 msg = inputbox("i am gpt speaker","bot")
